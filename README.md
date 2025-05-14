@@ -1,27 +1,25 @@
-# SISPAR - Backend
+# Projeto Final – Sistema de Reembolso
 
-API desenvolvida com Node.js e Express para gerenciamento de colaboradores e reembolsos.
+Este é o projeto final de um sistema de reembolso desenvolvido em **Node.js** no backend. O sistema permite o cadastro de colaboradores, envio de solicitações de reembolso e gestão por parte dos administradores.
 
-## Instruções
+## Funcionalidades
 
-1. Instale as dependências:
-   ```
-   npm install
-   ```
+- Cadastro e autenticação de usuários
+- Envio de solicitações de reembolso
+- Visualização de status das solicitações
+- Painel administrativo para aprovações
 
-2. Configure o banco de dados PostgreSQL e atualize o arquivo `.env` com sua `DATABASE_URL`.
+## Tecnologias utilizadas
 
-3. Rode o projeto:
-   ```
-   node app.js
-   ```
+- **Node.js** (Express)
+- **Prisma** (ORM)
+- **PostgreSQL** (Banco de dados)
+- **JWT** (Autenticação)
+- **Railway** (Deploy backend)
+- **Vercel** (Deploy frontend - caso use)
 
-## Rotas Principais
+## Como rodar o projeto
 
-### Colaboradores
-- `POST /colaboradores` - Cadastrar colaborador
-- `GET /colaboradores` - Listar todos os colaboradores
-
-### Reembolsos
-- `POST /reembolsos` - Criar novo reembolso
-- `GET /reembolsos/:numero` - Buscar reembolso por número de prestação
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/eduardo2304lj/Projeto-final.git
